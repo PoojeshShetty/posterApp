@@ -8,7 +8,7 @@ Poster App is a web app through which
 
 # Application Link
 
-Frontend Code -> [https://github.com/PoojeshShetty/poster](https://github.com/PoojeshShetty/posterApp)
+Frontend Code -> [https://github.com/PoojeshShetty/posterApp](https://github.com/PoojeshShetty/posterApp)
 <br>
 Deployed URL -> [https://posterapp-fe923.web.app/](https://posterapp-fe923.web.app/)
 
