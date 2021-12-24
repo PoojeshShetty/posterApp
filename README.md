@@ -1,7 +1,7 @@
 # posterApp
 Poster App is a full stack web app through which user post messages. The app is created by using react as the frontend and firebase for the backend.
 
-Poster App is a web app throught which
+Poster App is a web app through which
 - user can post, edit and delete their post messages
 - user can search and follow other users to view, like and comment on post messages
 - user can bookmark any post messages
@@ -43,6 +43,6 @@ Deployed URL -> [https://poster.com/](https://)
 - Authenticated Routes.
 
 
-***Nice of you to stop by and giving a look at my project. Any feedback on my code and overall project then please message me***
+***Nice of you to stop by and giving a look at my project. If you have any feedback then please do message me***
 
- [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@smilegupta&color=grey&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/poojesh-s-2590ab86/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@smileguptaaa&color=grey&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/ShettyPoojesh)
+ [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/poojesh-s-2590ab86/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/ShettyPoojesh)
