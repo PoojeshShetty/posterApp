@@ -45,4 +45,4 @@ Deployed URL -> [https://poster.com/](https://)
 
 ***Nice of you to stop by and giving a look at my project. If you have any feedback then please do message me***
 
- [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/poojesh-s-2590ab86/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/ShettyPoojesh)
+ [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/poojesh-shetty/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/ShettyPoojesh)
