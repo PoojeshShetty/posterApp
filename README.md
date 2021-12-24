@@ -10,7 +10,7 @@ Poster App is a web app through which
 
 Frontend Code -> [https://github.com/PoojeshShetty/poster](https://github.com/PoojeshShetty/posterApp)
 <br>
-Deployed URL -> [https://poster.com/](https://)
+Deployed URL -> [https://posterapp-fe923.web.app/](https://posterapp-fe923.web.app/)
 
 # Tech Stack
 
@@ -42,7 +42,5 @@ Deployed URL -> [https://poster.com/](https://)
 - User Management (Login, register, profile update) 
 - Authenticated Routes.
 
-
-***Nice of you to stop by and giving a look at my project. If you have any feedback then please do message me***
 
  [![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/poojesh-shetty/) [![Twitter](https://img.shields.io/static/v1.svg?label=connect&message=@poojeshShetty&color=white&logo=twitter&style=flat&logoColor=white&colorA=blue)](https://twitter.com/ShettyPoojesh)

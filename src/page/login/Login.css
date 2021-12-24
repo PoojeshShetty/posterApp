@@ -54,6 +54,7 @@
     cursor:pointer;
     width:50%;
     padding:5px;
+    text-align: center;
 }
 form .form__control{
     margin:15px 0;
