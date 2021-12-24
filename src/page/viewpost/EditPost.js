@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import {Link} from 'react-router-dom'
-import { useEffect } from 'react/cjs/react.development'
+import { useEffect } from 'react'
 import { usePost } from '../../hooks/usePost'
 
 function EditPost({post, setEdit, error,postUserImg, initialPost, user, deletePost, pendingDelete}) {

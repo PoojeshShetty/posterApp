@@ -2,7 +2,7 @@ import {useState} from 'react'
 import './EditProfile.css'
 import {projectFirestore} from '../../config/firebase'
 import { useAuth } from '../../hooks/useAuth'
-import { useEffect } from 'react/cjs/react.development'
+import { useEffect } from 'react'
 import { useEditProfile } from '../../hooks/useEditProfile'
 import {useHistory} from 'react-router-dom'
 
@@ -21,10 +21,13 @@ function EditProfile() {
     useEffect(()=>{
         const unsub = projectFirestore.collection('users').doc(user.uid).onSnapshot(doc=>{
             const obj = {id:doc.id, ...doc.data()}
+            if(doc.data())
+            {
             setDisplayName(obj.displayName)
             setInputDisplayName(obj.displayName)
             if(obj.bio)
                 setBio(obj.bio)
+            }
         })
 
         return ()=> unsub()

@@ -12,6 +12,7 @@ function Profile({uid}) {
     const {user} = useAuth()
     const [profile,setProfile] = useState(null)
     const [posts, setPosts] = useState(null)
+    const [pending, setPending] = useState(true)
     const {userid} = useParams()
     const profileId = userid ? userid : uid;
     const bookmarkHook = useBookmark()
@@ -20,7 +21,9 @@ function Profile({uid}) {
     useEffect(()=>{
         const unsub = projectFirestore.collection('users').doc(profileId).onSnapshot(doc => {
             const obj = {id:doc.id, ...doc.data()}
+            if(doc.data())
             setProfile(obj)
+            setPending(false)
         })
 
         return ()=> unsub()
@@ -38,7 +41,7 @@ function Profile({uid}) {
         return ()  => unsub()
     },[profileId])
 
-    if(!profile)
+    if(pending)
     return(
         <div className="loading__container">
             <img className="loading__svg" src="/svg/loading_icon.svg" alt="Loading" />
@@ -47,8 +50,8 @@ function Profile({uid}) {
 
     if(!profile)
     return(
-        <div>
-            No user of specific id
+        <div style={{'textAlign':'center','fontWeight':'700','margin':'10px', 'fontSize':'1.2rem'}}>
+             No user of specific id
         </div>
     )
     return (
