@@ -144,4 +144,9 @@
     width:70px;
     height: 70px;
   }
+
+  .post__createdAt{
+    padding-top:5px;
+    font-size: 0.6rem;
+  }
 }

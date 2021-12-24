@@ -140,6 +140,7 @@
   }
 
   .logo {
+    display: inline-block;
     margin-left:70px;
   }
 }
