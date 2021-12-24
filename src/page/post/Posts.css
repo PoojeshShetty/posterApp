@@ -1,0 +1,147 @@
+
+/* posts */
+.post{
+    border-bottom: 2px solid #777;
+  }
+
+.post__form{
+  padding:10px;
+}
+
+.post__form .user__img, .posts .post .user__img{
+  width:75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--dark-color);
+  align-items: center;
+  color:white;
+}
+
+.post__form .user__img img, .post .user__img img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.posts{
+  margin-bottom: 20px;
+}
+.posts .post {
+  padding:10px 5px;
+  display: flex;
+  justify-content: space-around;
+  border:none;
+  border-top:1px solid #777;
+}
+
+.cursor--pointer{
+  cursor: pointer;
+}
+
+.posts .post .post__content p{
+  margin:10px 0px;
+}
+
+.posts .post .post__content{
+  width:80%;
+}
+
+.posts .post__btn{
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #777;
+}
+
+.post__btn button img{
+  width:100%;
+  height: 100%;
+}
+
+.post__btn button{
+  border:none;
+  background-color: rgba(0,0,0,0.1);
+  width:30px;
+  height:30px;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 50;
+}
+
+.post__btn .btn--like{
+  background-color: pink;
+}
+
+.btn--like img{
+  filter: invert(37%) sepia(94%) saturate(3450%) hue-rotate(343deg) brightness(95%) contrast(93%);
+}
+
+.post__content .post__user .user__displayName{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.post__content .post__user a{
+  text-decoration: none;
+  color:rgba(0,0,0);
+}
+
+.post__content .post__user a:hover{
+  text-decoration: underline;
+  text-underline-offset: 0.3ch;
+}
+
+.user__img .user__initial {
+  font-size:1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2ch;
+}
+
+.post__form .post__content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.post__form .addpost__form{
+  width:80%;
+}
+
+.post__createdAt{
+  float: right;
+}
+
+.addpost__form button{
+  width:80px;
+  margin-top:10px;
+}
+
+.addpost__form .btn{
+  padding:7px 10px;
+}
+
+.addpost__form .btn img{
+  width: 30px;
+}
+
+.addpost__form .btn__loading{
+  padding:1px 10px;
+}
+
+.post__form .addpost__form textarea{
+  resize: none;
+}
+
+.post__form .addpost__form textarea:focus{
+  border:2px solid rgba(0,0,0);
+}
+
+@media screen and (max-width:500px) {
+  .post__form .user__img , .posts .post .user__img{
+    width:70px;
+    height: 70px;
+  }
+}

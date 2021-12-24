@@ -1,0 +1,117 @@
+.posts .post__edit .btn{
+    width:100px;
+    margin:10px;
+    padding:5px 10px;
+}
+
+.posts .post__edit .btn__collection{
+    border-bottom: 1px solid #777;
+}
+
+.btn--save:hover{
+    opacity: 0.7;
+}
+
+.btn--save .btn--save--loading{
+    width:25px;
+}
+
+.btn--delete .btn--delete--loading{
+    width:25px;
+}
+
+.btn--delete{
+    border:2px solid red;
+    background-color: rgb(250, 196, 205);
+    color:rgb(190, 3, 3);
+}
+.posts .post__edit .btn--cancel{
+    background-color: white;
+    color:rgba(0,0,0);
+    width:100px;
+    margin:10px;
+    padding:5px 10px;
+    border-radius:10px;
+}
+
+.posts .post__edit .btn--cancel:hover{
+    border:1px solid #777;
+}
+
+.posts .edit__post .post {
+    border:none;
+}
+
+.post__content textarea{
+    margin-top:10px;
+    width:100%;
+    resize: none;
+}
+
+.post__edit .btn__collection{
+    display: flex;
+}
+
+.comment__container{
+    padding: 10px;
+    border-bottom: 1px solid #777;
+}
+
+.comment__container .comment__form textarea{
+    width: 100%;
+    padding:10px;
+    resize: none;
+    border:1px solid #777;
+    outline: none;
+}
+
+.comment__form textarea{
+    outline: none;
+}
+
+.comment__form .btn--comment{
+    width:100px;
+    margin-top: 8px;
+    padding:5px 8px;
+}
+
+.viewcomments__container{
+    padding:10px;
+}
+
+.viewcomments__container .viewcomment{
+    border:1px solid rgba(0,0,0,0.3);
+    padding:10px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.viewcomments__container .viewcomment__comment{
+    margin-left:10px;
+    padding:5px 9px;
+    background-color: rgba(0,0,0,0.04);
+    text-align: justify;
+    border-radius: 5px;
+    border:1px solid #777;
+}
+
+.viewcomment .viewcomment__info{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.viewcomment .user__displayName{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.viewcomment__user .user__username{
+    margin-left: 10px;
+    opacity: 0.9;
+}
+
+.viewcomment__info .viewcomment__time{
+    margin-left: auto;
+    opacity: 0.6;
+}

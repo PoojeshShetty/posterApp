@@ -1,0 +1,49 @@
+
+.editprofile__form{
+    padding:10px;
+}
+.editprofile__form form{
+    width:400px;
+    max-width: 100%;
+    margin:20px auto;
+}
+
+.editprofile__form .form__title{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.editprofile__form form label{
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom:10px;
+    font-weight: 500;
+}
+
+.editprofile__form form input,textarea{
+    width: 100%;
+    font-size: 1.1rem;
+    padding:10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.editprofile__form form textarea{
+    resize: none;
+    height:100px;
+    border:1px #777 solid;
+}
+
+.editprofile__form form input{
+   
+    border:1px #777 solid;
+}
+
+
+.editprofile__form form input:focus,textarea:focus{
+    opacity: 0.8;
+}
+
+
+

@@ -1,0 +1,145 @@
+.App{
+  position: relative;
+}
+
+.navbar__container{
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  padding:10px 0px;
+  top:0;
+  position:sticky;
+  z-index:600;
+  background-color: #fff;
+}
+
+.navbar{
+  width:1350px;
+  max-width: 100%;
+  margin:auto;
+  left:0;
+  right: 0;
+}
+
+.navbar a{
+  text-decoration: none;
+}
+
+.navbar .logo{
+  display: flex;
+  align-items: center;
+}
+
+.navbar__content{
+  position:relative;
+}
+
+.navbar__content .toggle{
+  position:absolute;
+  top:20px;
+  left:10px;
+}
+
+.navbar__content .toggle__btn{
+  display: none;
+  z-index: 200;
+}
+
+.logo .logo__img{
+  width:70px;
+  height:70px;
+  filter:invert(20%) sepia(91%) saturate(6087%) hue-rotate(269deg) brightness(89%) contrast(116%);
+}
+
+.logo .logo__name{
+  font-weight:900;
+  font-size: 1.4rem;
+  color:var(--dark-color);
+}
+
+.container{
+  width:1400px;
+  max-width: 100%;
+  margin:auto;
+  position: relative;
+  min-height: 88vh;
+  display: grid;
+  grid-template-columns: minmax(15%,180px) minmax(400px,60%) auto;
+}
+
+.toggle__btn:hover{
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 50%;
+}
+
+.layout__right{
+  display: flex;
+}
+
+@media screen and (max-width:1020px) {
+
+  .layout__right{
+    display: none;
+  }
+
+  .sidebar{
+    transform:translateX(0);
+  }
+
+  .sidebar__item{
+    padding:10px;
+    border-radius: 50%;
+  }
+
+  .sidebar__item .icon__text{
+    display: none;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: minmax(15%,180px) minmax(400px,100%);
+  }
+
+  
+}
+
+@media screen and (max-width:500px) {
+
+  .navbar__container{
+    position: relative;
+  }
+
+  .sidebar{
+    transform: translateX(-100%);
+    max-width: 100%;
+    width:500px;
+  }
+
+  .sidebar .sidebar__content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    height: auto;
+    left: 0;
+  }
+
+  .sidebar__item{
+    border-radius: 20px;
+  }
+
+  .sidebar__item .icon__text{
+    display: block;
+  }
+
+  .container{
+    display: block;
+  }
+
+  .navbar__content .toggle__btn{
+    display: block;
+    z-index: 200;
+  }
+
+  .logo {
+    margin-left:50px;
+  }
+}
