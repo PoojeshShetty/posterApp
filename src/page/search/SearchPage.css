@@ -1,0 +1,83 @@
+.SearchPage .search__content{
+    text-align: center;
+}
+
+.search__content input{
+    margin:10px auto;
+    padding:10px;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    outline: none;
+    border:1px solid #777;
+}
+
+.search__content input:focus{
+    outline: none;
+    opacity: 0.8;
+}
+
+.search__result{
+    margin-top:10px;
+}
+
+.search__result .user__img{
+    width:40px;
+    height:40px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-color);
+    color:white;
+}
+
+.user__img img{
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+}
+
+.user__follow .btn{
+    font-size: 0.8rem;
+    padding:5px 10px;
+}
+
+.user__follow .btn__loading img{
+    width:20px;
+    height: 20px;
+}
+
+.user__follow .btn__loading{
+    padding:5px 20px;
+}
+
+.user__avatar{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:1px #777 solid;
+    border-radius: 20px;
+    padding:7px;
+}
+
+.user__avatar a{
+    text-decoration: none;
+    color:rgba(0,0,0);
+}
+
+.user__avatar a:hover{
+    text-decoration: underline;
+}
+.user__avatar .user__info span{
+    display: block;
+}
+
+.user__avatar .user__info .user__displayname{
+    font-weight: 600;
+}
+
+.user__avatar .user__info .user__username{
+    opacity:0.8;
+}

@@ -10,6 +10,7 @@ import EditProfile from '../editprofile/EditProfile'
 import SearchLayout from '../../components/searchLayout/SearchLayout'
 import ViewPost from '../viewpost/ViewPost'
 import { useAuth } from '../../hooks/useAuth'
+import SearchPage from '../search/SearchPage'
 
 function Home() {
 
@@ -60,6 +61,10 @@ function Home() {
 
         <Route path="/editprofile">
             <EditProfile />
+        </Route>
+
+        <Route path="/search">
+            <SearchPage />
         </Route>
 
         <Route path="/:userid" exact>

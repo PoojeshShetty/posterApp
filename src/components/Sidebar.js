@@ -32,6 +32,13 @@ function Sidebar() {
                 </div>
               </Link>
               
+              <Link to="/search">
+                <div className="sidebar__item">
+                  <img src="/svg/search.svg" alt="searchsvg" className="item__icon" />
+                  <div className="icon__text">Search</div>
+                </div>
+              </Link>
+              
               <div className="sidebar__item" onClick={logout} >
                 {!pending && 
                   <>
